@@ -34,7 +34,7 @@ body{
 	
 }
 	.pk{
-		heigtht:450;
+		height:450px;
 	}
 }
 @media (max-width:575px){
@@ -45,7 +45,7 @@ body{
 	
 }
 	.pk{
-		heigtht:350;
+		height:350px;
 	}
  
 }
@@ -57,7 +57,7 @@ body{
 	
 }
 	.pk{
-		heigtht:290;
+		height:290px;
 	}
 }
 	@media (max-width:354px){
@@ -68,7 +68,7 @@ body{
 	
 }
 		.pk{
-		heigtht:260;
+		height:260px;
 	}
     
 }
