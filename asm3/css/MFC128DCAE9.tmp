@@ -1,0 +1,13 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	font-size: 16px;
+	color:#fff;
+	background-color: red;
+	
+}
+a img{
+	width:250px;
+	height: 250px;
+	
+}

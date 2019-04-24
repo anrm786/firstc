@@ -7,7 +7,7 @@ body{
 	text-align: center;
 	
 }
-.cl img{
+a img{
 	width:140px;
 	height: 140px;
 	
@@ -15,10 +15,6 @@ body{
 .col-md-3 img{
 	margin-top: 100px;
 	
-}
-.pk{
-	width: 80%;
-	border: 3px solid black;
 }
 
 @media (max-width:768px){

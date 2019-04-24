@@ -1,0 +1,29 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	font-size: 16px;
+	color:#fff;
+	background-color: red;
+	text-align: center;
+	
+}
+a img{
+	width:140px;
+	height: 140px;
+	
+}
+.col-md-3 img{
+	margin-top: 100px;
+	
+}
+
+@media (max-width:768px){
+	body{
+	background-color: black;
+	}
+	.pg{
+		margin-top: -100px;
+	}
+}
+
+
