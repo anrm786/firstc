@@ -7,7 +7,17 @@ body{
 	text-align: center;
 	
 }
+h3{
+	color: green;
+	background-color: azure;
+	margin-left:10%;
+	margin-right:10%;
+	margin-top: 10px;
+	border: 2px solid black;
+	font-size: 25px;
+}
 #ls{
+
 	margin-top: 30px;
 }
 .cl img{
@@ -35,6 +45,9 @@ body{
 }
 	.pk{
 		height:450px;
+	}
+	h3{
+		font-size: 16px;
 	}
 }
 @media (max-width:575px){
