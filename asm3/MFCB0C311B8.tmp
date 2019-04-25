@@ -48,19 +48,15 @@
 			}); 
 			$("#ls").click(function(){
 				paused=!paused;
-				 if(!paused)
-	$(".pop1").show();
+				if(!paused)
+					alert("Slide show is running")
 				else
-					$(".pop2").show();
-				setTimeout(function(){
-						  $(".pop").hide();
-						   },1500);
-				
+					alert("slide show is passed")
 			});
 			setInterval(function(){
 				if(!paused)
 					$(".btg").click();
-			},3000);
+			},3000)
 			});
 			
 		</script>
@@ -77,8 +73,8 @@
 				<a class="btn btn-primary btl" href="#"><</a></div>
 				
 				<div class="col-8 col-md-10">
-					<div class="pop pop2"  style="display: none;">Slide Show Paused</div>
-					<div class="pop pop1" style="display: none;">Slide Show Working</div>
+					<div class="pop"  style="display: block">Slide Show Paused</div>
+					<div class="pop" style="display: block">Slide Show Working</div>
 			<img class="mx-auto d-block pk" id="ls"  src="images/a.jpg"></div>
 				<div class="col-2 col-md-1">
 				<a class=" btn btn-primary btg" href="#">></a></div>
