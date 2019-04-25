@@ -22,11 +22,10 @@
 			$(".cla").click(function(){
 		
 				//$("#ls").attr('src','images/b.jpg');
-				
+				$("#ls").attr('src',$(this).attr('src'));
 			   counter=$(this).attr('ida');
 				//alert("amir");
 				console.log(counter);
-				$("#ls").attr('src',$("#i"+counter).attr('src'));
 			}); 
 			$(".btl").click(function(){
 				if (counter==1)
@@ -34,28 +33,28 @@
 				else
 		counter=counter-1;
 				console.log(counter);
-				$("#ls").attr('src',$("#i"+counter).attr('src'));
 			}); 
 			$(".btg").click(function(){
 	if (counter==4)
 				counter=1;
 				else
-		counter=parseFloat(counter)+1;
+		counter=counter+1;
 				console.log(counter);
-			$("#ls").attr('src',$("#i"+counter).attr('src'));
-			}); 
 			
+			}); 
 			});
 			
+		
+	
 		</script>
 		<div class="container">
 			<div class="row" style="margin-top:50px;">
-				<div class="col-3 ag cl" >Image1<br><img ida="1" alt=""class="mx-auto d-block cla" id="i1" src="images/a.jpg">
+				<div class="col-3 ag cl" >Image1<br><img ida="1" alt=""class="mx-auto d-block cla"  src="images/a.jpg">
 				 </div>
 				
-				<div class="col-3 ag cl">Image2<br><img  ida="2" class=" mx-auto d-block cla" id="i2" src="images/b.jpg"></div>
-				<div class="col-3 pg cl" >Image3<br><img ida="3" class="mx-auto d-block cla" id="i3"src="images/c.jpg"></div>
-				<div class="col-3 pg cl" ida="4">Image4<br><img ida="4" class="mx-auto d-block cla" id="i4"src="images/d.jpg"></div>
+				<div class="col-3 ag cl">Image2<br><img  ida="2" class=" mx-auto d-block cla" src="images/b.jpg"></div>
+				<div class="col-3 pg cl" >Image3<br><img ida="3" class="mx-auto d-block cla" src="images/c.jpg"></div>
+				<div class="col-3 pg cl" ida="4">Image4<br><img ida="4" class="mx-auto d-block cla" src="images/d.jpg"></div>
 				
 				<div class="col-2 col-md-1">
 				<a class="btn btn-primary btl" href="#"><</a></div>

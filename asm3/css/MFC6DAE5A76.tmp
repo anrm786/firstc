@@ -19,31 +19,21 @@ h3{
 #ls{
 
 	margin-top: 30px;
-	margin-right: 0px;
-	padding-right: 0px;
 }
 .cl img{
 	width:140px;
 	height: 140px;
 	
 }
-.btl,.btg{
-	margin-top: 30px;
-	
-	
-}
 .col-3 img{
 	margin-top: 20px;
 	border: 2px solid red;
-
 	
 }
-
 .pk{
-	width: 100%;
-	height:65vw;
+	width: 80%;
+	height: auto;
 	border: 3px solid black;
-	
 }
 
 @media (max-width:768px){
@@ -54,24 +44,21 @@ h3{
 	
 }
 	.pk{
-		height:65vw;
+		height:450px;
 	}
 	h3{
 		font-size: 16px;
 	}
 }
 @media (max-width:575px){
-	.btl,.btg{
-		width: 20px!important;
-		padding: 0px;
-	}
+	
 	.cl img{
 	width:80px;
 	height: 80px;
 	
 }
 	.pk{
-		height:65vw;
+		height:auto;
 	}
  
 }
@@ -83,7 +70,7 @@ h3{
 	
 }
 	.pk{
-		height:65vw;
+		height:290px;
 	}
 }
 	@media (max-width:354px){
@@ -94,7 +81,7 @@ h3{
 	
 }
 		.pk{
-		height:65vw;
+		height:auto;
 	}
     
 }
