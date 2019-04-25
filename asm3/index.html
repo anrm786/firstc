@@ -15,10 +15,12 @@
 	</head>
 
 	<body >
-		<h3>Click on small images to change the big image.</h3>
+		<h1>Slide Show</h1>
+		<h3>Click on big image to pause slide show and interact manually with slide show.</h3>
 		<script>
 		$(document).ready(function(){
 			var counter=1;
+			var paused=false;
 			$(".cla").click(function(){
 		
 				//$("#ls").attr('src','images/b.jpg');
@@ -44,7 +46,13 @@
 				console.log(counter);
 			$("#ls").attr('src',$("#i"+counter).attr('src'));
 			}); 
-			
+			$("#ls").click(function(){
+				paused=!paused;
+			});
+			setInterval(function(){
+				if(!paused)
+					$(".btg").click();
+			},3000)
 			});
 			
 		</script>
