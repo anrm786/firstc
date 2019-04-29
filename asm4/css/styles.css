@@ -8,6 +8,7 @@
 .jumbotron{
 	background-color: mediumvioletred;
 	color: whitesmoke;
+	margin-top: 20px;
 }
 .rh{
 	min-height: 200px;
