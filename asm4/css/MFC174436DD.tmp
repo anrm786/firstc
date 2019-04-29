@@ -1,0 +1,17 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+	.ab li{
+		list-style:none;
+	}
+.jumbotron{
+	background-color: mediumvioletred;
+	color: whitesmoke;
+}
+.rh{
+	min-height: 200px;
+}
+footer{
+	background-color: rosybrown;
+}
