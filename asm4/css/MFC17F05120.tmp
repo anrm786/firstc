@@ -10,7 +10,7 @@ body{
 	}
 .jumbotron{
 	background-color:  #D9C873;
-	color: black;
+	color: whitesmoke;
 	margin-top: 20px;
 	
 }
@@ -27,16 +27,12 @@ footer{
 
 	
 }*/
-.mr-auto li a:hover{
+.bg-m li a.nav-link:link{
 	
 	color: red;
 }
-.mr-auto li a:visited{
+.bg-m li a.nav-link:visited{
 	
 	color: #D9C873!important;
 }
-nav .navbar-brand{
-	color: white;
-}
-
 

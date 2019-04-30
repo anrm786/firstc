@@ -10,7 +10,7 @@ body{
 	}
 .jumbotron{
 	background-color:  #D9C873;
-	color: black;
+	color: whitesmoke;
 	margin-top: 20px;
 	
 }
@@ -36,7 +36,9 @@ footer{
 	color: #D9C873!important;
 }
 nav .navbar-brand{
-	color: white;
+	color: red;
 }
-
+.navbar-toggler span{
+	color: green;
+}
 
