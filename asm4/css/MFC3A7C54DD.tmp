@@ -2,8 +2,7 @@
 /* CSS Document */
 
 body{
-	
-		
+	background-color: #A69563}
 }
 	.ab li{
 		list-style:none;
@@ -18,18 +17,8 @@ body{
 }
 footer{
 	background-color:#261D26;
-	color: #D9C873;
 	
 }
 .bg-m{
 	background-color: #261525;
-	
-}p
-.bg-m li a.nav-link:link{
-	
-	color: red;
-}
-.bg-m li a.nav-link:visited{
-	
-	color: #D9C873!important;
 }

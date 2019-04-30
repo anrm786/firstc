@@ -1,15 +1,12 @@
 @charset "utf-8";
 /* CSS Document */
 
-body{
-	
-		
-}
+
 	.ab li{
 		list-style:none;
 	}
 .jumbotron{
-	background-color:  #D9C873;
+	background-color: mediumvioletred;
 	color: whitesmoke;
 	margin-top: 20px;
 }
@@ -17,19 +14,9 @@ body{
 	min-height: 200px;
 }
 footer{
-	background-color:#261D26;
-	color: #D9C873;
+	background-color: darkgray;
 	
 }
 .bg-m{
 	background-color: #261525;
-	
-}p
-.bg-m li a.nav-link:link{
-	
-	color: red;
-}
-.bg-m li a.nav-link:visited{
-	
-	color: #D9C873!important;
 }

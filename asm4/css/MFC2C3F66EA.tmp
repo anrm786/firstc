@@ -2,7 +2,7 @@
 /* CSS Document */
 
 body{
-	
+	background-color: #A69563;
 		
 }
 	.ab li{
@@ -24,12 +24,8 @@ footer{
 .bg-m{
 	background-color: #261525;
 	
-}p
-.bg-m li a.nav-link:link{
-	
-	color: red;
 }
-.bg-m li a.nav-link:visited{
+.bg-m li a{
 	
-	color: #D9C873!important;
+	color: #D9C873;
 }
