@@ -1,0 +1,29 @@
+@charset "utf-8";
+/* CSS Document */
+
+.jumbotron{
+	height: 205px;
+	background-color: #0B5888;
+	border-bottom: 2px solid #fff;
+}
+.topblock{
+	width: 100%;
+	background-color: #003869;
+	height: 28px;
+	top: 0;
+	position: absolute;
+	border-bottom: 2px solid #0479B5;
+}
+.textab{
+	margin-left:14%;
+	margin-right:14%;
+}
+.linktop{
+	font-weight: 200;
+	font-size: 15px;
+}
+.linktop li{
+	
+	list-style: none;
+	display: inline;
+}

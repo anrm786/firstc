@@ -1,0 +1,70 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/styles.css" rel="stylesheet">
+<meta charset="utf-8">
+<title>Muslim Institue Page</title>
+</head>
+
+<body>
+	<div class="jumbotron jumbotron-fluid">
+		<div class="topblock">
+			<div class="textab">
+						<div class="container">
+				<div class="row">
+					<div class="offset-lg-7 col-lg-5 offset-md-5 col-md-7 linktop text-center">
+						<ul>
+							<li>
+						<a href="https//:www.muslim-institue.org">www.muslim-institue.org</a></li>
+						<li style="color:#6EB5BC;">|</li>
+					
+						<li><a href="https//:www.muslim-institue.org">www.muslim-institue.org</a> </li>
+					</ul></div>
+					
+				</div>
+			</div>
+		</div></div>
+		
+		<div class="textab imgl">
+			<img src="images/Logo-header.png">
+		</div>
+		
+		<!-- nav bar in jumbo toron-->
+		<div class="menuback textab">
+			<div class="navbar navbar-expand-lg">
+				
+					<!-- menu-->
+						<div class="col-mg-10">
+			<ul class="nav navbar-nav">
+				<li class="nav-item"><a href="#" class="nav-link">Home</a></li>
+<!-- about droop down-->
+				<li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown"><About</a>
+					<ul>
+						<li><a href="#"></a></li>
+						<li><a href="#"></a></li>
+						<li><a href="#"></a></li>
+						<li><a href="#"></a></li>
+					</ul>
+					
+					</li>
+				<li class="nav-item"><a href="#" class="nav-link">Projects</a></li>
+				<li class="nav-item"><a href="#" class="nav-link">Publications</a></li>
+				<li class="nav-item"><a href="#" class="nav-link">Media Gallery</a></li>
+				<li class="nav-item"><a href="#" class="nav-link">Contacts</a></li>
+			</ul></div>
+				
+			<button class="btn btn-primary btn-d">
+				Donate
+			</button></div>
+	</div>
+</div>
+	
+	<!-- Here, we have included java script files-->
+	<script src="js/jquery-3.4.0.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/script.js"></script>
+</body>
+</html>
